@@ -802,6 +802,10 @@ body {
         justify-content: center;
         align-items: center;
     }
+    .content__letter .left #heart__letter{
+        width: 170px;
+        height: 170px;
+    }
     .content__letter .left .heart_2{
         top: 50px;
     }
@@ -816,8 +820,15 @@ body {
     .content__letter .right .love__img.animationOp img{
         width: 110px;
     }
+
+    .content__letter .right .love__img{
+        position: absolute;
+        right: -20px;
+        top: -80px;
+    }
     .text__letter{
         margin-top: 0px!important;
         font-size: 1rem!important;
     }
 }
+
